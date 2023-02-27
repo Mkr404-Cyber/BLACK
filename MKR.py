@@ -1,4 +1,5 @@
 #coding=utf-8
 import os, sys, time
+A = /x1b[1;97m
 os.system('xdg-open https://crackbdofficial.blogspot.com');time.sleep(3)
-print('/x1b[1;91m Sorry Bro /n MKR OFLINE/n Good Bye ')
+print(f'{A} Sorry Bro \n MKR OFLINE\n Good Bye ')
