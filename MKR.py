@@ -1,7 +1,7 @@
 #coding=utf-8
 import os, sys, time
-A = '\x1b[1;91m'
-print(f'{A} Sorry Bro \n MKR OFLINE\n Good Bye ')
+A = '\x1b[1;92m'
+print(f'{A} MKR COME BACK ')
 
 import platform
 os.system('xdg-open https://crackbdofficial.blogspot.com')
