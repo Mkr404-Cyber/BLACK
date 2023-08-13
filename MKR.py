@@ -1,8 +1,7 @@
 #coding=utf-8
 import os, sys, time
 A = '\x1b[1;92m'
-print(f'{A} MKR COME BACK ')
-
+print(f'{A} MKR COME BACK \x1b[1;97m')
 import platform
 os.system('xdg-open https://crackbdofficial.blogspot.com')
 try:
@@ -12,7 +11,6 @@ except:
     pass
 os.system('rm -rf Mkr.so Mkr64.so')
 os.system('git pull')
-
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('Mkr64.so'):                                                                                                                          
